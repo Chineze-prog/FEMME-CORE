@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    align-items: center;
+    margin: 17% 37%;
+    overflow: hidden;   /*Prevent scrolling*/
+   
+}
+
+.text {
+
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1px;
+    margin-bottom: 15%; 
+
+}
+#access{
+    line-height: 13px;
+}
+
+p {
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.inputBoxE{
+    
+    height: 35px;
+    width: 96%;
+    border-width: 0.5px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.inputBoxP{
+    height: 35px;
+    width: 96%;
+    border-width: 0.5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+#form{
+   
+    line-height: 20px; /*space between each line*/
+    
+}   
+
+#log-inButton  {
+
+    border-radius: 5px;
+    background-color: #9A1795;
+    color: white;
+    font-size: 17px;
+    font-family: "Public Sans", sans-serif;
+    padding: 3% 6%;
+    border: none;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    
+    
+
+}
+
+#show{
+    white-space: normal;
+    font-size: 14px;
+    line-height: 10px;
+}
+
+.links {
+    color: #005EA2; 
+    font-size: 14px;
+
+}
+#sign-up {
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+#log-inButton:hover {
+    background-color:white;
+    border: solid;
+    border-width: 1px;
+    border-color: #9A1795;
+    color: #9A1795;
+    font-style: bold;
+    transition: 0.2s ease-in-out;
+}
+
