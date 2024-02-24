@@ -45,21 +45,40 @@ p{
 
 body {
     width: 100%;
-    background-image: url('/img/homepagebg.jpg');
+    background-image: url('img/homepagebg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
+}
+
+#Femme{
+    display: block;
+    color: #EB81E7;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;  
+}
+
+
+#Core{
+    display: block;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;  
 }
 
 #header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px, 80px;
-    background: rgb(184, 59, 184);
-    background: grey;
-    
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    padding: 20px, 80px;    
 }
 
 #navbar {
