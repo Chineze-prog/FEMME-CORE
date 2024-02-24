@@ -45,6 +45,10 @@ p{
 
 body {
     width: 100%;
+    background-image: url('/img/homepagebg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #header {
@@ -53,6 +57,8 @@ body {
     justify-content: space-between;
     padding: 20px, 80px;
     background: rgb(184, 59, 184);
+    background: grey;
+    
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
@@ -78,12 +84,28 @@ body {
 
 #navbar li a:hover,
 #navbar li a.active{
-    font-size: 16px;
+    font-size: 14px;
     color: black;
 }
 
 #navbar li a:hover::after,
 #navbar li a.active::after{
-    font-size:  16px;
+    font-size:  14px;
     color: black;
+}
+
+button{
+    background-color: rgb(206, 72, 206);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(206, 72, 206);
 }
