@@ -29,28 +29,41 @@ h6 {
     font-weight: 700;
 }
 
-p{
+p {
     font-size: 16px;
     color: #465b52;
     margin: 15px 0 20px 0;
 }
 
-.section-p1{
+.section-p1 {
     padding: 40px 0;
 }
  
-.section-m1{
+.section-m1 {
     margin: 40px 0;
 }
 
 body {
     width: 100%;
+    /*
     background-image: url('img/homepagebg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
+    */
 }
 
+/* Header */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px, 80px;   
+    background: purple;
+    box-shadow: 0 5px 15px;
+}
+
+/* logo in header*/
 #Femme{
     display: block;
     color: #EB81E7;
@@ -59,9 +72,8 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 20px;  
+    padding-left: 50px;  
 }
-
 
 #Core{
     display: block;
@@ -71,16 +83,10 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 20px;  
+    padding-left: 50px;  
 }
 
-#header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px, 80px;    
-}
-
+/* Navigation Bar in header*/
 #navbar {
     display: flex;
     align-items: center;
@@ -89,9 +95,8 @@ body {
 
 #navbar li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0 50px;
 }
-
 
 #navbar li a{
     text-decoration: none;
@@ -117,7 +122,8 @@ button{
     background-color: rgb(206, 72, 206);
     color: white;
     padding: 5px 20px;
-    border: none;
+    border: rgb(206, 72, 206);
+    border-radius:5px;
     text-decoration: none;
     font-size: 10px;
     font-weight: 600;
@@ -127,4 +133,24 @@ button{
 button:hover{
     background-color: white;
     color: rgb(206, 72, 206);
+}
+
+/* Home Page*/
+#statement{
+    background-image: url('img/homepagebg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:top 25% right 0;
+    height: 90vh;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#statement h4{
+    color: white;
 }
